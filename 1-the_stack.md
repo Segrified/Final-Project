@@ -12,7 +12,21 @@ Functions that can be used with the stack are as follows:
 * `push()` - adds a given value to the back of the stack
 * `pop()` - removes and returns the value at a given index, or the last value if no index is given
 * `del()` - removes a value at a given index
-* `size()` - returns how many values are in the stack
+* `size()` - returns the size of the stack
 * `empty()` - returns true if the stack is empty, or false if it is not
 
-There are some other functions that can be used to manipulate the stack, but these are the basic ones that can be used in most circumstances. 
+There are some other functions that can be used to manipulate the stack, but these are the basic ones that can be used in most circumstances.
+
+## Example
+Here is an example of the stack at work.
+
+If we wanted to create a stack and add some values to it, we would create the variable and append values onto it.
+```python
+stack = []
+
+stack.append(3)
+stack.append(2)
+stack.append(1)
+
+print(stack)
+```
