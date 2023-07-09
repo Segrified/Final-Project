@@ -1,7 +1,7 @@
 # Introduction
 
 Hello and welcome to the tutorial. In this documentation, you will learn about the following:
-* The Stack
+* [The Stack](1-the_stack.md)
 * Linked Lists
 * Trees
 

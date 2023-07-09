@@ -12,6 +12,7 @@ Functions that can be used with the stack are as follows:
 * `pop()` - removes and returns the value at a given index, or the last value if no index is given
 * `del()` - removes a value at a given index
 * `len()` - returns the amount of values in the stack
+* `insert()` - adds a given value at a given index
 
 There are some other functions that can be used to manipulate the stack, but these are the basic ones that can be used in most circumstances.
 
@@ -74,6 +75,8 @@ print(tasks)
 Write a program that is able to organize a list of numbers as they are fed to it. It should be able to search the list and find a place for each value. For this problem, you can assume there will be no repeating numbers.
 
 Test your program against the following number strings:
-* 6, 5, 8, 3, 2, 9, 1
-* 5, 20, 4, 33, 62, 3
-* 
+* 5, 4, 3, 8, 6, 9, 1, 7, 2
+* 34, 7, 12, 56, 44, 45, 90, 23, 1
+* 0.1, 0.7, 0.3, 0.4, 0.8, 0.2, 0.5, 0.9, 0.6
+
+You can check the solution [here](the_stack_solution.py)
